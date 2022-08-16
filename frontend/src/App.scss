@@ -1,0 +1,22 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.app {
+  height: 100vh;
+  .sections {
+    position: fixed;
+    top: 60px;
+    height: calc(100vh - 60px);
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    .others {
+      position: relative;
+      left: 300px;
+      overflow-y: scroll;
+    }
+  }
+}

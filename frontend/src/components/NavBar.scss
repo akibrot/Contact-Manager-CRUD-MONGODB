@@ -1,0 +1,12 @@
+.NavCont {
+  height: 60px;
+  position: fixed;
+  width: 100vw;
+  box-shadow: 0px 0px 10px rgba(116, 114, 114, 0.473);
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  z-index: 999;
+  top: 0;
+}

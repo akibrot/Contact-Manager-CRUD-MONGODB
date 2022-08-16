@@ -1,0 +1,42 @@
+.menu {
+  position: absolute;
+  width: 300px;
+  height: 500px;
+  left: 0;
+  top: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  .menus {
+    width: 200px;
+    height: 45px;
+    margin-top: 10px;
+    background-color: white;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    box-shadow: 0px 0px 5px rgba(19, 18, 18, 0.452);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  .menus:hover {
+    background-color: rgba(0, 0, 255, 0.685);
+    color: white;
+    a {
+        color: white;
+      }
+      
+  }
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+}
